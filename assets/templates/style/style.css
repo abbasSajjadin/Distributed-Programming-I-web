@@ -1,0 +1,80 @@
+body{font-family: 'Alegreya Sans SC'; margin:0; padding:0; font-size:18px;}
+input{font-family: 'Alegreya Sans SC'; font-size: 18px;}
+a {font-size: 18px;}
+.logoHolder{width:100%; height:150px;}
+.logoleft{width:50%; height:150px; background-color: #2A3943; float:left; /*color: #fff; font-size: 46px;}*/}
+.rightSide{background-color: #2A3943;}
+.topMenuHalf span {color: #fff; float: right; font-size: 18px; margin-top: 110px;}
+.topMenuHalf-Left{width:65px; height:34px; background-color:#1AB188;list-style:none; border-radius:4px;margin: 90px 0 0 600px; padding: 11px 0px 0px 20px; cursor:pointer;}
+.topMenuHalf-Left a{ text-decoration:none;  transition: all 0.5s ease 0s; color:white; float: left;}
+.topMenuHalf-Left a:hover{color:#c2c2c2;}
+
+/*--Popupmenu--*/
+#bgCover{position:absolute; z-index:9000; background-color:#000; display:none; top:0px; left:0px;}
+#boxes .window{position:fixed; width:440px; height:361px; display:none; z-index:9999; padding:5px;}
+#boxes #dialog{width:305px; height:380px;background:#F2F2F2; border-radius:4px;}
+#exteraLog{margin-right:0; margin-top:40px; float:left; margin-left: 5px;}
+input[id = popupLonginMail]{width:280px; height:46px;margin-right:110px; margin-left: 5px;padding:0; background-color:#FFF; border:solid 1px #c2c2c2; direction:ltr; padding-left:5px; color:#878D92;  float:left; border-radius:3px;}
+input[class = userName]{width:280px; height:46px;margin-right:110px; margin-left: 5px; padding:0; background-color:#FFF; border:solid 1px #c2c2c2; direction:ltr; padding-left:5px; color:#878D92;  float:left; border-radius:3px;}
+.btLogHolder{width:100%; height:83px; margin-top:80px;}
+.btLogHolder input[type=submit]{width:80px; height:30px; padding:0; float:left; border:none; margin:10px 5px 0 0;  text-align:center;  cursor:pointer;border-radius:2px; color:#D8D8D8; background-color: #1ab188;}
+#btlogin{margin:10px 10px 0 5px; transition: all 0.5s ease 0s; color:#8F8F8F; background-color:#55595C;}
+#btlogin:hover{color:#DCDCDC; background-color:#7C8286;transition: all 0.5s ease 0s;}
+#btloginOut:hover{color:#fff; background: #50b190;transition: all 0.5s ease 0s;}
+.btLogHolder a{width:100%; height:35px; float:left; color:#7C7C7C; margin:10px 0px 0px 6px; adding:0; text-decoration:none;}
+.btLogHolder a:hover{color:#1AB188;}
+.labelDesign{margin-left: 5px;}
+
+
+/*--Membership--*/
+.membershipMain{width:100%; height:505px; background-color:#F2F2F2; margin:40px 0 0 0;}
+.membershipHolder{width:942px; height:100%; margin:0 auto; background-color:inherit;}
+.inputHolder{width:780px; height:50px;margin:5px 10px 0 0; padding:0; float:left;}
+.LMember{color:#55595C;font-size:22px; padding-right:65px;float:left;margin-top: 11px;}
+.memInner input[type=text]{width:500px; height:46px;margin-left:90px; padding:0 0 0 5px; background-color:#FFF; border:solid 1px #c2c2c2; direction:ltr; padding-right:5px; color:#878D92; float:left; border-radius:3px;}
+.memInner input[type=email]{width:500px; height:46px;margin-left:125px; padding:0 0 0 5px; background-color:#FFF; border:solid 1px #c2c2c2; direction:ltr; padding-right:5px; color:#878D92;  float:left; border-radius:3px;}
+.memInner input[type=password]{width:500px; height:46px;margin-left:91px; padding:0 0 0 5px; background-color:#FFF; border:solid 1px #c2c2c2; direction:ltr; padding-right:5px; color:#878D92; float:left; border-radius:3px;}
+.memInner input[name = confPassword]{margin-left: 11px;}
+.memInner input[name = firstname]{margin-left: 85px;}
+#memReg{margin-left:680px;}
+.sendBotton{width:100%; height:68px;}
+.sendBotton input[type=submit]{width:80px; height:34px; margin:15px 11px 0 0; padding:0; background: #1ab188; float:left; border:none; text-align:center; color:#fff; cursor:pointer;border-radius:2px;vertical-align:center;}
+
+/*--Menu--*/
+.leftMenuHolder{width: 15%; height: 100vh; background-color: #2A3943; float: left;}
+.leftMenuHolder ul{list-style:none; margin: 0; padding: 0;}
+.leftMenuHolder ul li{padding: 15px 0 15px 15px; position:relative; background-color: #2A3943; border-top: 1px solid #179B77; }
+.leftMenuHolder ul li:hover{opacity: 1; visibility: visible;}
+.leftMenuHolder ul a {color: Gainsboro; text-decoration: none;}
+span{margin-right: 15px;}
+.main{width: 85%; height: 100vh; background-color: #F2F2F2; float: left; border-top: solid 1px #2A3943;}
+.mainHolder{width: 75%; height: 550px; background-color: #F2F2F2; float: left; margin: 30px 0 0 150px;}
+
+
+
+
+.item{width:263px; height:388px; margin: 10px 0 0 360px; background-color:#FFF; float: left; border-radius:5px; cursor:default;transition: all 0.5s ease 0s;}
+.item:hover{box-shadow:0px 0px 20px 10px #bcf4e5; transition: all 0.5s ease 0s;}
+.picHolder{width:263px; height:165px; cursor:default; }
+.picItem{border-top-left-radius:5px;border-top-right-radius:5px; cursor:default;}
+.title{width:223px; height:30px; margin-top:5px; text-align:center; margin-left:15px; color:#444; position:absolute; font-weight:700; cursor:default;}
+.listItems{color:#878D92; list-style:none; margin-top:45px;line-height:23px; cursor:default; font-size: 14px; }
+.price{color:#55595C; text-align:center; cursor:default;}
+.details{width:223px; height:34px; background-color:#1AB188; color:#FFFFFF; margin:5px 10px 0 22px; display: inline-block; font-weight: normal;line-height:2.1;text-align: center;white-space: nowrap;vertical-align: middle;cursor: pointer;-moz-user-select: none;background-image: none;border: medium none;border-radius: 4px; text-decoration:none;}
+.competition{width: 100%; height: 135px; background-color: #F2F2F2; margin-top:5px; float: left;}
+.competition li{padding-left: 10px; list-style: none; color:#878D92; margin:5px 0 0 200px; cursor:default;}
+
+.competition input[type=email]{width:200px; height:30px;margin-left:10px; padding:0 0 0 5px; background-color:#FFFFFF; border:solid 1px #c2c2c2; direction:ltr; padding-right:5px; color:#878D92; border-radius:3px;}
+.competition input[type=text]{width:200px; height:30px;margin-left:10px; padding:0 0 0 5px; background-color:#FFFFFF; border:solid 1px #c2c2c2; direction:ltr; padding-right:5px; color:#878D92; border-radius:3px;}
+#form-warning {width: 100%; font-size: 16px; color: #b12330; float: left;}
+#app-message {width: 100%; font-size: 24px; color: #1ab188; float: left; text-align: center; margin: 0;}
+.text-center {text-align: center;}
+.big-text{font-size: 24px !important;}
+#bid-value{width: 100%; font-size: 24px; color: #7d3bb1; float: left; text-align: center;}
+#winner{width: 100%; font-size: 22px; color: #106db1; float: left; text-align: center; margin-top: 40px;}
+#threshold-holder{width: 100%; float: left; text-align: center;}
+#threshold-container{display: inline-block; margin-top: 40px;}
+#threshold-container * {float: left;}
+#threshold-container label {margin-top: 10px;}
+#threshold-container .userName {margin-right: 10px;}
+#submit {background-color: #1AB188; border: none; color: #fff; border-radius: 3px; padding: 12px; float: left; cursor: pointer;}
